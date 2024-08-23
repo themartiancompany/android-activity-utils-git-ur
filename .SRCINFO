@@ -1,0 +1,23 @@
+pkgbase = android-activity-utils-git
+	pkgdesc = Manage displays.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g97ea672f2ade63cf8aa8b761d8cb033e3ea95069
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-activity-utils
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = android-utils
+	depends = bbrightnessctl
+	depends = displayctl
+	depends = touchctl
+	provides = android-activity-utils=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g97ea672f2ade63cf8aa8b761d8cb033e3ea95069
+	conflicts = android-activity-utils
+	source = android-activity-utils.tar.gz::https://github.com/themartiancompany/android-activity-utils/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = android-activity-utils-git
